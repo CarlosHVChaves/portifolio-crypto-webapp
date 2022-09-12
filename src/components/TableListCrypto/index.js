@@ -14,7 +14,7 @@ const TableListCrypto = () => {
 
     useEffect(() => {
         if (walletAddress !== "") {
-            axios.get(`/cryptocurrencies`).then((res) => {
+            axios.get(`/cryptocurrencies/${walletAddress}`).then((res) => {
                 const resposta = res.data;
                 setCryptos(resposta);
             });
