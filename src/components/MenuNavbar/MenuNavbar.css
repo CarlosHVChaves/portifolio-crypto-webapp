@@ -1,0 +1,17 @@
+.navbar.navbar-dark {
+    min-height: 10vh;
+    min-width: 100%;
+    border-radius: 0em 0em 0.25em 0.25em;
+    box-shadow: 0em 0.25em 0.5em #000000;
+    background: linear-gradient(63deg, #0000001a 23%, transparent 23%) 7px 0,
+        linear-gradient(63deg, transparent 74%, #0000001a 78%),
+        linear-gradient(
+            63deg,
+            transparent 34%,
+            #0000001a 38%,
+            #0000001a 58%,
+            transparent 62%
+        ),
+        #000000;
+    background-size: 16px 48px;
+}

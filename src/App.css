@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.App {
+  font-family:Poppins;
+  background:
+    linear-gradient(63deg, #0000000c 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #0000000c 78%),
+    linear-gradient(63deg, transparent 34%, #0000000c 38%, #0000000c 58%, transparent 62%),
+    #006efd;
+    background-size: 16px 48px;
+}
